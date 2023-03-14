@@ -1,10 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "posts",
+  "collectionName": "turismo_de_aventuras",
   "info": {
-    "singularName": "post",
-    "pluralName": "posts",
-    "displayName": "Pueblos Mágicos",
+    "singularName": "turismo-de-aventura",
+    "pluralName": "turismo-de-aventuras",
+    "displayName": "Turismo de aventura",
     "description": ""
   },
   "options": {
@@ -31,12 +31,6 @@
     },
     "subtitle": {
       "type": "string"
-    },
-    "category": {
-      "type": "relation",
-      "relation": "manyToOne",
-      "target": "api::category.category",
-      "inversedBy": "posts"
     },
     "content": {
       "type": "richtext"

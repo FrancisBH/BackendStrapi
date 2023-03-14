@@ -1,10 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "posts",
+  "collectionName": "giras_academicas",
   "info": {
-    "singularName": "post",
-    "pluralName": "posts",
-    "displayName": "Pueblos Mágicos",
+    "singularName": "giras-academica",
+    "pluralName": "giras-academicas",
+    "displayName": "Giras Academica",
     "description": ""
   },
   "options": {
@@ -31,12 +31,6 @@
     },
     "subtitle": {
       "type": "string"
-    },
-    "category": {
-      "type": "relation",
-      "relation": "manyToOne",
-      "target": "api::category.category",
-      "inversedBy": "posts"
     },
     "content": {
       "type": "richtext"

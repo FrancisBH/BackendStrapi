@@ -1,10 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "posts",
+  "collectionName": "programas_internacionals",
   "info": {
-    "singularName": "post",
-    "pluralName": "posts",
-    "displayName": "Pueblos Mágicos",
+    "singularName": "programas-internacional",
+    "pluralName": "programas-internacionals",
+    "displayName": "Programas Internacional",
     "description": ""
   },
   "options": {
@@ -31,12 +31,6 @@
     },
     "subtitle": {
       "type": "string"
-    },
-    "category": {
-      "type": "relation",
-      "relation": "manyToOne",
-      "target": "api::category.category",
-      "inversedBy": "posts"
     },
     "content": {
       "type": "richtext"
