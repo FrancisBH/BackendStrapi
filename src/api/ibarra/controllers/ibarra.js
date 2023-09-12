@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- *  amigo-tour controller
+ *  ibarra controller
  */
 
 const { createCoreController } = require('@strapi/strapi').factories;
 
-module.exports = createCoreController('api::amigo-tour.amigo-tour');
+module.exports = createCoreController('api::ibarra.ibarra');

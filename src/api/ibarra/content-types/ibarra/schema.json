@@ -1,10 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "posts",
+  "collectionName": "ibarras",
   "info": {
-    "singularName": "post",
-    "pluralName": "posts",
-    "displayName": "Pueblos Mágicos",
+    "singularName": "ibarra",
+    "pluralName": "ibarras",
+    "displayName": "Ibarra",
     "description": ""
   },
   "options": {
@@ -31,12 +31,6 @@
     },
     "subtitle": {
       "type": "string"
-    },
-    "category": {
-      "type": "relation",
-      "relation": "manyToOne",
-      "target": "api::category.category",
-      "inversedBy": "posts"
     },
     "content": {
       "type": "richtext"

@@ -15,7 +15,6 @@
     "@strapi/plugin-users-permissions": "4.2.2",
     "@strapi/provider-email-sendgrid": "^4.2.3",
     "@strapi/provider-upload-cloudinary": "^4.7.1",
-    "@strapi/provider-upload-local": "^4.13.1",
     "@strapi/strapi": "4.2.2",
     "mysql": "2.18.1"
   },
