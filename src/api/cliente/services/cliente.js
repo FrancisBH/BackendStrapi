@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * ibarra service.
+ * cliente service.
  */
 
 const { createCoreService } = require('@strapi/strapi').factories;
 
-module.exports = createCoreService('api::ibarra.ibarra');
+module.exports = createCoreService('api::cliente.cliente');

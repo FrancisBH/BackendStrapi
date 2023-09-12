@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "servicioss",
+  "info": {
+    "singularName": "servicios",
+    "pluralName": "servicioss",
+    "displayName": "Servicios",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Service": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

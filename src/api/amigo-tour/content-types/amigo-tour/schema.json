@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "amigo_tours",
+  "info": {
+    "singularName": "amigo-tour",
+    "pluralName": "amigo-tours",
+    "displayName": "AmigoTour",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Sobre": {
+      "type": "text"
+    },
+    "Mision": {
+      "type": "text"
+    },
+    "Vision": {
+      "type": "string"
+    },
+    "images": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}
