@@ -32,14 +32,20 @@
     "subtitle": {
       "type": "string"
     },
+    "content": {
+      "type": "richtext"
+    },
     "category": {
       "type": "relation",
       "relation": "manyToOne",
       "target": "api::category.category",
-      "inversedBy": "posts"
+      "inversedBy": "pueblos_magicos"
     },
-    "content": {
-      "type": "richtext"
+    "Counter": {
+      "type": "integer"
+    },
+    "date_expire": {
+      "type": "date"
     }
   }
 }

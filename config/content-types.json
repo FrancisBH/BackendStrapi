@@ -1,0 +1,22 @@
+{
+    "contentTypes": {
+      "servicioss": {
+        "name": "Servicios",
+        "url": "/api/servicioss",
+        "methods": ["GET"],
+        "fields": {
+          "titulo": {
+            "type": "string"
+          },
+          "descripcion": {
+            "type": "string"
+          },
+          "images": {
+            "type": "array",
+            "includes": true
+          }
+        }
+      }
+    }
+  }
+  
