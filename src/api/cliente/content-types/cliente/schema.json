@@ -46,10 +46,10 @@
           "localized": true
         }
       },
-      "type": "biginteger",
+      "type": "integer",
       "unique": true,
       "required": true,
-      "default": "0"
+      "default": 0
     },
     "Edad": {
       "pluginOptions": {

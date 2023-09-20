@@ -46,6 +46,9 @@
     },
     "date_expire": {
       "type": "date"
+    },
+    "draft": {
+      "type": "boolean"
     }
   }
 }
