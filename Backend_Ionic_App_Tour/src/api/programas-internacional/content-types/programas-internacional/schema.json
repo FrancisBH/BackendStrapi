@@ -1,0 +1,45 @@
+{
+  "kind": "collectionType",
+  "collectionName": "programas_internacionals",
+  "info": {
+    "singularName": "programas-internacional",
+    "pluralName": "programas-internacionals",
+    "displayName": "Programas Internacional",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "date_expire": {
+      "type": "date"
+    },
+    "draft": {
+      "type": "boolean"
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "kind": "collectionType",
+  "collectionName": "giras_academicas",
+  "info": {
+    "singularName": "giras-academica",
+    "pluralName": "giras-academicas",
+    "displayName": "Giras Academica",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "date_expire": {
+      "type": "date"
+    },
+    "draft": {
+      "type": "boolean"
+    }
+  }
+}
