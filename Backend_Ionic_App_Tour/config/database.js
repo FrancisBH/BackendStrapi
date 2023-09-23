@@ -2,11 +2,11 @@ module.exports = ({ env }) => ({
   connection: {
     client: 'mysql',
     connection: {
-      host: env('DATABASE_HOST', '99.000webhost.io'),
-      port: env.int('DATABASE_PORT', 3306),
-      database: env('DATABASE_NAME', 'id19844630_amigotours'),
-      user: env('DATABASE_USERNAME', 'id19844630_root'),
-      password: env('DATABASE_PASSWORD', 'qqwe1123Q@'),
+      host: env('MYSQLHOST', 'containers-us-west-194.railway.app'),
+      port: env.int('MYSQLPORT', 5770),
+      database: env('MYSQLDATABASE', 'railway'),
+      user: env('MYSQLUSER', 'root'),
+      password: env('MYSQLPASSWORD', 'ItgU0eHRBs3FrUCBB2SD'),
       ssl: env.bool('DATABASE_SSL', false),
     },
   },
