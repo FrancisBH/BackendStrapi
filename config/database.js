@@ -1,13 +1,14 @@
 module.exports = ({ env }) => ({
   connection: {
-    client: 'mysql',
+    client: 'postgres',
     connection: {
-      host: env('MYSQLHOST', 'containers-us-west-123.railway.app'),
-      port: env.int('MYSQLPORT', 7034),
-      database: env('MYSQLDATABASE', 'railway'),
-      user: env('MYSQLUSER', 'root'),
-      password: env('MYSQLPASSWORD', 'ZWX5n3iUsJCHQWbmZ8On'),
-      ssl: env.bool('DATABASE_SSL', false),
+      host: env('PGHOST', '127.0.0.1'),
+      port: env.int('PGPORT', 5432),
+      database: env('PGDATABASE', 'strapi'),
+      user: env('PGUSER', 'strapi'),
+      password: env('PGPASSWORD', 'password'),
+      ssl: env.bool(true),
     },
+    pool: { min: 0 }
   },
 });
